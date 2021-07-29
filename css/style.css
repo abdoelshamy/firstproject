@@ -1,0 +1,74 @@
+body {
+    background-image: url(../img/ningyu-he-tb49PTdW1ZM-unsplash.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+@media (min-width :786px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992) {
+    .container {
+      width: 970;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+.container .box {
+    width: 300px;
+    margin: 0;
+    padding: 40px;
+    border-radius: 24px;
+    background: #191919bd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container .box h1 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.container .box input[type="text"] , .box input[type="password"] {
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 24px;
+    background: none;
+    padding: 20px;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    outline:none;
+    color: #ffffff;
+    display: block;
+    transition: 0.2s;
+}
+.container .box input[type="text"]:focus , .box input[type="password"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+.container .box input[type="submit"] {
+    width: 100px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 24px;
+    background: none;
+    padding: 20px;
+    border: 2px solid #2ecc71;
+    padding: 14px 10px;
+    outline: none;
+    color: #ffffff;
+    display: block;
+    transition: .25s;
+}
+.container .box input[type="submit"]:hover {
+    width: 200px;
+    background: #2ecc71 ;
+}
+.container .box:hover {
+    background:#37295fc2;
+}
